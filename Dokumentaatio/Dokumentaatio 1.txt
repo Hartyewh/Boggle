@@ -1,0 +1,35 @@
+Dokumentaatio, osa 1
+Tehtävämäärittely
+
+Aihe: Boggle-sanapeli
+
+Boggle säännöt: kirjainnopilla muodostetaan 4x4 ruudukko, josta pelaajien tulee etsiä 
+perusmuotoisia sanoja. Pelaajat kirjaavat löytämänsä sanat paperiin tai vastaavaan ja 
+lopussa pisteenlaskun yhteydessä tarkistetaan, että ne myös löytyvät ruudukosta. Sanan 
+muodostavat kirjaimet tulee olla järjestyksessä, mutta ruudukolla saa liikkua vapaasti 
+mihin tahansa suuntaan. 
+
+irjainruudukosta voi siirtyä maksimissaan kahdeksaan toiseen ja suuntaa saa vapaasti 
+vaihdella, mutta saman ruudukon kirjainta ei saa käyttää samassa sanassa useasti. Pisteitä 
+saa sanan pituuden mukaan.
+
+Pelin perusperiaatteena nopissa (taulukon riveillä) on tietyt kirjaimet, jotta muodostuva 
+kirjainruudukko sopii käytettyyn kieleen. Sattumanvaraisella generoinnilla pelistä ei tule 
+mitään.
+
+Pelin on sinäänsä varsin staattinen, ettei pelaajilla ole varsinaista vuorovaikutusta pelin 
+kanssa (ellei lisämoodeista ja asetuksista keksitä jotain).
+
+Laajennuksena alkuperäisen peliin:
+
+–Peliajan säätö
+–Ruudukon koon vaihto 4x4 / 5x5
+–Erikseen suomi/englanti kirjaimet (käyttöliittymässä pyritään kuvien ja symbolien käyttöön, 
+kuten usein mobiilipeleissä)
+–Jos keksitään jotain oikeesti kivoja moodeja niin jotain vaihtoehtoisia (esim. a) ajan 
+kuluessa muutama kirjain katoaa näkyvistä, jolloin ne on muistettava itse, b) kirjainten 
+suuntaus vaihtelee tai c) yksinpelimoodi, jossa voi klikkailla vierekkäisiä kirjaimia ja 
+erottaa sanat erillisellä napilla ja sanat tulostuvat lopuksi ja pisteet lasketaan)
+–Lähtökohtaisesti kirjainten suuntaus (??) on sattumanvarainen, kuten alkuperäisessä pelissä, 
+mutta mikäli koetaan hyödylliseksi/toimivaksi niin voisi erikseen olla myös pelkästään pystypäin
+–Merkkiäänet, kenties taustamusiikki jne...
